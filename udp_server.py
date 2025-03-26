@@ -1,7 +1,7 @@
 import socket
 
 HOST = ""  # todo: specify the correct hostname of IP address to communicate with the server.
-PORT =   # todo: specify the correct port number to communicate with the server.
+PORT = 22  # todo: specify the correct port number to communicate with the server.
 
 # open a UDP socket
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
